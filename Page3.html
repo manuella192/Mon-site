@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Ma page 3</title>
+    <style>
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 300px;
+            height: auto;
+        }
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            padding: 20px;
+        }
+        .heading-primary {
+            color: #0056b3;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .heading-secondary {
+            color: #001f3f; /* Bleu nuit */
+            margin: 10px 0;
+        }
+        .link-custom {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .link-custom:hover {
+            text-decoration: underline;
+        }
+        hr {
+            margin: 20px 0;
+            border: none;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#description">Description</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#filières">Filières</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+  
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col text-center">
+                <a href="https://pigier-benin.com/" class="link-custom">
+                    <h1 class="heading-secondary">Pigier</h1>
+                </a>
+            </div>
+        </div>
+        <div class="card mb-4">
+            <img src="C:\Users\HPZbook\Desktop\HTML\Logo3.jpg" class="card-img-top center" alt="Description de l'image">
+            <div class="card-body">
+                <h3 class="heading-secondary" id="description">Description de l'université</h3>
+                <p class="card-text">
+                    Pigier Bénin est une institution privée d'enseignement supérieur qui représente la franchise de la marque Pigier, fondée en France en 1850. Elle établit sa présence au Bénin en 1993 et a obtenu l'agrément de l'État béninois en 1997. Pigier Bénin offre des programmes de licence et de master professionnels dans les domaines des sciences de gestion et des technologies, couvrant un large éventail de spécialisations telles que le management, le commerce, l'administration des entreprises, la finance, le contrôle de gestion, la comptabilité, l'assistanat de direction, la gestion des ressources humaines et le placement des étudiants. PIGIER-BENIN dispose d’un dense réseau d’entreprises partenaires. Il y a d’une part les entreprises jumelées avec lesquelles l’école a signé des conventions de jumelage, et d’autre part les autres entreprises partenaires qui accompagnent l’école dans le cadre de la formation pratique des apprenants. Les conventions de jumelage permettent à l’école PIGIER-BENIN de garantir les stages et missions académiques des apprenants, de faciliter la formation en alternance et l’insertion professionnelle. Ces partenariats permettent également aux entreprises de faire connaître leurs activités aux apprenants et de disposer d’une main-d’œuvre qualifiée.
+                </p>
+            </div>
+        </div>
+        <h3 id="filières" class="heading-secondary">Liste des filières</h3>
+        <dl>
+            <dt>RGL</dt>
+            <dd>Réseau génie logiciel</dd>
+            <dt>RMS</dt>
+            <dd>Réseau mobilité et sécurité</dd>
+            <dt>BF</dt>
+            <dd>Banque et finance</dd>
+            <dt>CG</dt>
+            <dd>Audit contrôle de gestion</dd>
+        </dl>
+    </div>
+    <footer class="bg-light text-center text-lg-start mt-5">
+        <div class="container p-4">
+            <p id="contact" class="m-0">Contact: +229 98196919</p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
